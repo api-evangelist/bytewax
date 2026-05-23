@@ -1,0 +1,122 @@
+aid: bytewax
+name: Bytewax
+description: >-
+  Bytewax is a Python-native distributed stream processing framework built on
+  a Rust runtime. Developers define dataflows using the bytewax.dataflow API,
+  composing operators (map, filter, reduce, joins, windowing) over connectors
+  for Kafka, files, stdio, demos, and custom sources/sinks. The Bytewax
+  Platform layers a self-hostable Kubernetes-based control plane on top,
+  managed with the waxctl CLI and Helm chart, with deployment targets that
+  include AWS, GCP, and the AWS Marketplace.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/bytewax/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+tags:
+  - Stream Processing
+  - Python
+  - Dataflow
+  - Real-Time
+  - Kafka
+  - Windowing
+  - Connectors
+  - Distributed Systems
+  - Kubernetes
+  - Open Source
+apis:
+  - aid: bytewax:python-library
+    name: Bytewax Python Library
+    description: >-
+      Open-source Python library for building distributed stream processing
+      dataflows. Provides bytewax.dataflow, bytewax.operators (including
+      windowing), bytewax.inputs, bytewax.outputs, and a connectors package
+      for Kafka, files, stdio, and demo sources.
+    humanURL: https://docs.bytewax.io/api/index.html
+    baseURL: https://pypi.org/project/bytewax/
+    tags:
+      - Python
+      - Dataflow
+      - Operators
+      - Connectors
+      - Windowing
+    properties:
+      - type: Documentation
+        url: https://docs.bytewax.io/
+      - type: APIReference
+        url: https://docs.bytewax.io/api/index.html
+      - type: SDK
+        url: https://pypi.org/project/bytewax/
+      - type: Repository
+        url: https://github.com/bytewax/bytewax
+  - aid: bytewax:connectors
+    name: Bytewax Connectors
+    description: >-
+      Built-in connector modules for integrating Bytewax dataflows with
+      external systems, including Kafka (with operators and serialization
+      submodules), files, stdio, and demo sources. Custom connectors are
+      built on the inputs/outputs APIs.
+    humanURL: https://docs.bytewax.io/api/index.html
+    baseURL: https://docs.bytewax.io/api/index.html
+    tags:
+      - Connectors
+      - Kafka
+      - Files
+      - IO
+    properties:
+      - type: Documentation
+        url: https://docs.bytewax.io/api/index.html
+  - aid: bytewax:platform
+    name: Bytewax Platform
+    description: >-
+      Self-hosted control plane for securely building, deploying, and scaling
+      Bytewax workloads on Kubernetes. Managed through the waxctl CLI and
+      Helm chart, with deployment options including AWS, GCP, and the AWS
+      Marketplace.
+    humanURL: https://bytewax.io/platform
+    baseURL: https://platform.bytewax.io
+    tags:
+      - Platform
+      - Kubernetes
+      - Helm
+      - waxctl
+      - Deployment
+    properties:
+      - type: Documentation
+        url: https://platform.bytewax.io/
+      - type: Marketing
+        url: https://bytewax.io/platform
+      - type: CLI
+        url: https://bytewax.io/platform
+common:
+  - type: Website
+    url: https://bytewax.io
+  - type: Portal
+    url: https://docs.bytewax.io
+  - type: Documentation
+    url: https://docs.bytewax.io
+  - type: Pricing
+    url: https://bytewax.io/pricing
+  - type: Blog
+    url: https://bytewax.io/blog
+  - type: GitHub
+    url: https://github.com/bytewax
+  - type: Repository
+    url: https://github.com/bytewax/bytewax
+  - type: SDK
+    url: https://pypi.org/project/bytewax/
+  - type: Products
+    url: https://bytewax.io/products
+  - type: Examples
+    url: https://docs.bytewax.io/guide/getting-started/index.html
+  - type: TermsOfService
+    url: https://bytewax.io/terms-of-service
+  - type: PrivacyPolicy
+    url: https://bytewax.io/privacy-policy
+  - type: Community
+    url: https://bytewax.io/slack
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
