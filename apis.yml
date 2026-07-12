@@ -91,6 +91,8 @@ apis:
       - type: CLI
         url: https://bytewax.io/platform
 common:
+  - type: DomainSecurity
+    url: security/bytewax-domain-security.yml
   - type: Website
     url: https://bytewax.io
   - type: Portal
