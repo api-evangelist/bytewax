@@ -103,6 +103,17 @@ apis:
       - type: CLI
         url: https://bytewax.io/platform
 common:
+  - type: IssueTracker
+    url: https://github.com/bytewax/bytewax/issues
+  - type: Releases
+    url: https://github.com/bytewax/bytewax/releases
+  - type: CodeOfConduct
+    url: https://github.com/bytewax/bytewax/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/bytewax/bytewax/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/bytewax/bytewax/blob/main/LICENSE
   - type: DomainSecurity
     url: security/bytewax-domain-security.yml
   - type: Website
