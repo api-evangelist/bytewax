@@ -30,6 +30,17 @@ specificationVersion: '0.23'
 tags:
   - Stream Processing
   - Python
+  - Dataflows
+  - Real-Time
+  - Kafka
+  - Windowing
+  - Connectors
+  - Distributed Systems
+  - Kubernetes
+  - Open-Source
+tags_raw:
+  - Stream Processing
+  - Python
   - Dataflow
   - Real-Time
   - Kafka
@@ -49,6 +60,12 @@ apis:
     humanURL: https://docs.bytewax.io/api/index.html
     baseURL: https://pypi.org/project/bytewax/
     tags:
+      - Python
+      - Dataflows
+      - Operators
+      - Connectors
+      - Windowing
+    tags_raw:
       - Python
       - Dataflow
       - Operators
@@ -73,6 +90,11 @@ apis:
     humanURL: https://docs.bytewax.io/api/index.html
     baseURL: https://docs.bytewax.io/api/index.html
     tags:
+      - Connectors
+      - Kafka
+      - File
+      - IO
+    tags_raw:
       - Connectors
       - Kafka
       - Files
