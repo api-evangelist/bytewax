@@ -43,7 +43,7 @@ specificationVersion: '0.23'
 tags:
   - Stream Processing
   - Python
-  - Dataflow
+  - Dataflows
   - Real-Time
   - Kafka
   - Windowing
@@ -74,7 +74,7 @@ apis:
     baseURL: https://pypi.org/project/bytewax/
     tags:
       - Python
-      - Dataflow
+      - Dataflows
       - Operators
       - Connectors
       - Windowing
