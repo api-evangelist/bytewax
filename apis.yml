@@ -75,7 +75,7 @@ apis:
     tags:
       - Python
       - Dataflows
-      - Operators
+      - Operator
       - Connectors
       - Windowing
     tags_raw:
