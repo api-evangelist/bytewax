@@ -138,6 +138,12 @@ apis:
       - type: CLI
         url: https://bytewax.io/platform
 common:
+  - type: Plans
+    url: plans/bytewax-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/bytewax-rate-limits.yml
+  - type: FinOps
+    url: finops/bytewax-finops.yml
   - type: IssueTracker
     url: https://github.com/bytewax/bytewax/issues
   - type: Releases
